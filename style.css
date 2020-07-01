@@ -1,0 +1,139 @@
+/* default css */
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #202428;
+}
+section{
+    height: 750px;
+    padding: 100px 0px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: grey;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+/* Banner area */
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.highligths-text{
+    color: #ED4B73;
+    font-weight: 700;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC5197, #ED4B73);
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+/* biography area */
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center-text{
+    padding-top: 100px;
+}
+/* Latest work area */
+.latest-work-area{
+    text-align: center;
+    height: 700px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one-third-width{
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 100px;
+}
+.one-third-width img{
+    width: 100%;
+}
+/* Service area */
+.service-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-single{
+    box-shadow: 0px 10px 20px 4px #00000015;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 70px;
+    background-color: white;
+}
+.service-area h2{
+    text-align: center;
+}
+.service-area h3{
+    font-size: 25px;
+}
+.service-area p{
+    font-size: 16px;
+}
+/* Testimonial area */
+.testimonial-area{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h6{
+    font-size: 16px;
+    color: grey;
+    margin-top: 10px;
+}
+.quote{
+    font-weight: 500;
+}
+.mail-area{
+    background-image: linear-gradient(45deg, #EC5197, #ED4B73);
+    padding: 60px 220px;
+    border-radius: 15px;
+    max-width: fit-content;
+    text-align: center;
+    margin: 80px auto;
+}
+.mail-area p{
+    color: white;
+}
+.mail-area a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+/* Footer area */
+footer p{
+    text-align: center;
+}
